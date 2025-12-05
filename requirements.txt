@@ -1,0 +1,23 @@
+# PyTorch GPU build (CUDA 12.1) cannot be installed directly
+#Users must install the correct PyTorch version manually:
+#
+# pip install torch torchvision torchaudio \
+#   --index-url https://download.pytorch.org/whl/cu121
+#Core Deep Learning
+torch
+torchvision
+torchaudio
+
+#Image processing & utilities
+numpy
+Pillow
+opencv-python
+matplotlib
+
+#Machine learning metrics
+scikit-learn
+
+#Training utilities
+tqdm
+pyyaml
+tensorboard

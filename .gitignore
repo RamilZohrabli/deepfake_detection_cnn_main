@@ -1,0 +1,12 @@
+# Ignore datasets
+data/faces/
+data/DFD_original_sequences/
+data/DFD_manipulated_sequences/
+
+# Ignore videos
+*.mp4
+
+# Ignore environment
+.venv/
+__pycache__/
+
